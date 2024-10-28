@@ -1,0 +1,38 @@
+
+/* 
+----------------
+  Search Bar
+----------------
+*/
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchbtn{
+  margin-left: 10px;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#inputarea{
+  height: 2.15em;
+  width: 300px;
+  border: none;
+  border-radius: 1.25em;
+  padding-left: 1.25em;
+  background-color: rgb(239, 239, 239);
+  font-size: 1rem;
+}
+
+.cityName{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 1.75rem;
+}
+
+

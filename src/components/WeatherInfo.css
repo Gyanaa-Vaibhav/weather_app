@@ -1,0 +1,51 @@
+/* 
+------------------
+    WeatherInfo
+------------------
+*/
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tempimage{
+  width: 150px;
+}
+
+.temp{
+  margin: 0.22em 0;
+  color: white;
+  font-size: 3rem;
+}
+
+.temp sup{
+  margin: 0 3px;
+}
+
+.stats{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25em;
+  color: #FFFFFF;
+  margin-top: 1.25em;
+}
+
+.stats p{
+  margin: 0;
+}
+
+.stats img{
+  height: 30px;
+}
+
+.humidity , .wind{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.825em;
+}
+
